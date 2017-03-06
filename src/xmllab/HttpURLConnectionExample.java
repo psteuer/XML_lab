@@ -141,6 +141,12 @@ public class HttpURLConnectionExample {
             NodeList nList = doc.getElementsByTagName("name"); //changed
             Node nNode = nList.item(0);
             System.out.println(nNode.getTextContent());
+            
+            NodeList nList1 = doc.getElementsByTagName("grade"); //changed
+            Node nNode1 = nList1.item(0);
+            System.out.println(nNode1.getTextContent());
+            
+            
         } catch (Exception e) {
             e.printStackTrace();
         }
